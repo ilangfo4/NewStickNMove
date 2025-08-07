@@ -114,7 +114,7 @@ document.querySelector('.contact-form').addEventListener('submit', function(e) {
   
   // Send email using EmailJS
   emailjs.send('service_i8vqega', 'template_5vmt88z', {
-    to_email: 'lang.isaiah2003@gmail.com',
+    to_email: 'sticknmoveatl@gmail.com',
     from_name: formData.name,
     from_email: formData.email,
     message: formData.message,
@@ -153,7 +153,7 @@ document.querySelector('.booking-form').addEventListener('submit', function(e) {
   
   // Send email using EmailJS
   emailjs.send('service_i8vqega', 'template_uan72md', {
-    to_email: 'lang.isaiah2003@gmail.com',
+    to_email: 'sticknmoveatl@gmail.com',
     from_name: formData.name,
     from_email: formData.email,
     appointment_date: formData.date,
