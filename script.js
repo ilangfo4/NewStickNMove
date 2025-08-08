@@ -49,7 +49,7 @@ scrollTopBtn.addEventListener('click', function() {
 
 // Initialize EmailJS
 (function() {
-  emailjs.init("lQX6_zyhFX8AIOkE_"); // Replace with your EmailJS user ID
+  emailjs.init("lQX6_zyhFX8AIOkE_");
 })();
 
 // Add error logging for debugging

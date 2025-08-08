@@ -13,6 +13,13 @@ body {
   overflow-x: hidden;
 }
 
+@media (max-width: 600px) {
+  html{
+    overflow-x: hidden;
+  }
+}
+
+
 .navbar {
   position: sticky;
   top: 0;
@@ -588,6 +595,10 @@ h2 {
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
+  /*new */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .scroll-top-btn.visible {
@@ -642,7 +653,7 @@ h2 {
   
   .scroll-top-btn {
     bottom: 1rem;
-    right: 1rem;
+    right: 2rem;
     width: 40px;
     height: 40px;
     font-size: 1.2rem;
