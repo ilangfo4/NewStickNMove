@@ -1,3 +1,10 @@
+@media (max-width: 600px) {
+  body{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -12,13 +19,6 @@ body {
   transition: background 0.3s, color 0.3s;
   overflow-x: hidden;
 }
-
-@media (max-width: 600px) {
-  body{
-    overflow-x: hidden;
-  }
-}
-
 
 .navbar {
   position: sticky;
@@ -167,6 +167,7 @@ body {
 }
 
 section {
+  scroll-margin-top: 45px;
   padding: 4rem 0;
 }
 
