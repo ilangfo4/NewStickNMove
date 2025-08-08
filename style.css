@@ -14,7 +14,7 @@ body {
 }
 
 @media (max-width: 600px) {
-  html{
+  body{
     overflow-x: hidden;
   }
 }
@@ -653,7 +653,7 @@ h2 {
   
   .scroll-top-btn {
     bottom: 1rem;
-    right: 2rem;
+    right: .5rem;
     width: 40px;
     height: 40px;
     font-size: 1.2rem;
